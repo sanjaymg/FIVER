@@ -1,0 +1,98 @@
+:root {
+    --green: #00b30c;
+    --gray1: #353537;
+    --gray2: #eaeaeb;
+    --gray3: #777777;
+}
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.header {
+    background-image: url(../img/hero.jpg);
+    background-size:cover;
+    height: 32rem;
+    
+}
+
+.btn-outline-light:hover {
+    color: black;
+    padding-bottom: 0!important;
+}
+.colorr {
+    color:#fff;
+}
+
+h1 {
+    font-weight: bolder;
+    font-weight: 900 !important;
+}
+.caption {
+    min-height: 25rem;
+}
+.category  {
+
+
+}
+.category h3:before {
+    content: " ";
+    margin: 5px auto 20px auto;
+    width: 60px;
+    height: 1px;
+    display: block;
+    background-color: #00b30c;
+    transition:all .3s ease-out;
+
+}
+.category:hover h3:before {
+    width: 110px;
+}
+.category p {
+    opacity: 0;
+    padding-bottom: 60px;
+    transition:all .3s ease-out;
+    
+}
+.category:hover p {
+    opacity: 1;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.432);
+    display: block;
+    font-size: 15px;
+}
+.flex-effect {
+    flex: 0 0 20%;
+    margin-left: auto;
+    
+    
+}
+.card {
+    border: none !important;
+}
+.nav-link {
+    color: rgba(248, 244, 244, 0.993)!important;
+}
+.box {
+    flex: 0 0 25%; }
+
+
+
+@media (max-width:990px){
+    .flex-effect {
+        flex: 0 0 50%;
+    }
+}
+@media (max-width:990px){
+    .last {
+        flex: 0 0 100%;
+    }
+}
+@media (max-width:642px)
+{
+    .box{
+        flex: 0 0 50%;
+    }
+}
+.footer {
+    background-color: rgba(0, 0, 0, 0.267);
+}
